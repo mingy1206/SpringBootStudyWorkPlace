@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.leemingi.springbootdeveloper.controller.BlogApiControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-15T19:47:34" hostname="DESKTOP-QL8N4RT" time="4.178">
+  <properties/>
+  <testcase name="addArticle: 블로그 글 추가에 성공한다." classname="me.leemingi.springbootdeveloper.controller.BlogApiControllerTest" time="4.178"/>
+  <system-out><![CDATA[04:47:23.584 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [me.leemingi.springbootdeveloper.controller.BlogApiControllerTest]: BlogApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+04:47:23.904 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration me.leemingi.springbootdeveloper.SpringBootDeveloperApplication for test class me.leemingi.springbootdeveloper.controller.BlogApiControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-10-16T04:47:24.848+09:00  INFO 27812 --- [    Test worker] m.l.s.controller.BlogApiControllerTest   : Starting BlogApiControllerTest using Java 17.0.7 with PID 27812 (started by gram15 in C:\Users\gram15\code\springboot-developer)
+2025-10-16T04:47:24.851+09:00  INFO 27812 --- [    Test worker] m.l.s.controller.BlogApiControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T04:47:26.629+09:00  INFO 27812 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-16T04:47:26.776+09:00  INFO 27812 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
+2025-10-16T04:47:27.810+09:00  INFO 27812 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-16T04:47:28.194+09:00  INFO 27812 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:14ffae5b-dcbd-43e1-9bbc-7ec9212eee0a user=SA
+2025-10-16T04:47:28.197+09:00  INFO 27812 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-16T04:47:28.306+09:00  INFO 27812 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-16T04:47:28.447+09:00  INFO 27812 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-10-16T04:47:28.530+09:00  INFO 27812 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-16T04:47:29.194+09:00  INFO 27812 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-16T04:47:32.052+09:00  INFO 27812 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-16T04:47:32.185+09:00  INFO 27812 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-16T04:47:33.404+09:00  WARN 27812 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-16T04:47:34.548+09:00  INFO 27812 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-10-16T04:47:34.550+09:00  INFO 27812 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-10-16T04:47:34.567+09:00  INFO 27812 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
+2025-10-16T04:47:34.674+09:00  INFO 27812 --- [    Test worker] m.l.s.controller.BlogApiControllerTest   : Started BlogApiControllerTest in 10.356 seconds (process running for 13.3)
+2025-10-16T04:47:37.186+09:00  INFO 27812 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-10-16T04:47:37.187+09:00  INFO 27812 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-10-16T04:47:37.189+09:00  INFO 27812 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
