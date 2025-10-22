@@ -67,7 +67,7 @@ public class User implements UserDetails {
     @Override
     public boolean isCredentialsNonExpired() {
         // 패스워드가 만료되었는지 확인하는 로직
-        return false; // true -> 만료되지 않았음
+        return true; // true -> 만료되지 않았음
     }
 
     // 계정 사용 가능 여부 반환
